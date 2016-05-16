@@ -30,14 +30,15 @@
             android:layout_alignParentStart="true"
             android:layout_marginLeft="41dp"
             android:layout_marginStart="41dp"
-            android:id="@+id/bunton1"
-            android:layout_weight="1" />
+            android:id="@+id/btnUP"
+            android:layout_weight="1"
+            android:onClick="clickSignUPMain" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SIGN IN"
-            android:id="@+id/button2"
+            android:id="@+id/btnIN"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_weight="1" />
