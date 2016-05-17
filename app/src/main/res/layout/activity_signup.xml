@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.pattanapong.snrurun.SignupActivity">
+    tools:context="com.pattanapong.snrurun.SignupActivity"
+    android:background="@drawable/background01">
 
     <LinearLayout
         android:orientation="vertical"
@@ -30,12 +31,14 @@
                 android:text="Name"
                 android:id="@+id/textView2"
                 android:textSize="25sp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text" />
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText"
-                android:layout_weight="2" />
+                android:layout_weight="2"
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -48,12 +51,14 @@
                 android:text="User"
                 android:id="@+id/textView4"
                 android:textSize="25sp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text" />
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText3"
-                android:layout_weight="2" />
+                android:layout_weight="2"
+                android:textColor="@color/text" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -65,12 +70,14 @@
                 android:text="Password"
                 android:id="@+id/textView5"
                 android:textSize="25sp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text" />
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText4"
-                android:layout_weight="2" />
+                android:layout_weight="2"
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
