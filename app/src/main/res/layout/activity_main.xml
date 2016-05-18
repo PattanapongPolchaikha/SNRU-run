@@ -37,7 +37,8 @@
             android:id="@+id/btnIN"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:onClick="clickSignIn" />
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
